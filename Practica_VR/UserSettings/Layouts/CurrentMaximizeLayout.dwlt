@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 24337
+  controlID: 99
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 24369
+  controlID: 44
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24370
+  controlID: 45
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -248,41 +248,12 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 50296
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -216586
-      - m_Data: -216488
-      - m_Data: -174610
-      - m_Data: -168654
-      - m_Data: -167958
-      - m_Data: -164898
-      - m_Data: -164294
-      - m_Data: -157634
-      - m_Data: -157600
-      - m_Data: -157586
-      - m_Data: -157584
-      - m_Data: -156092
-      - m_Data: -153518
-      - m_Data: -152536
-      - m_Data: -149186
-      - m_Data: -149142
-      - m_Data: -149126
-      - m_Data: -149122
-      - m_Data: -148256
-      - m_Data: -115236
-      - m_Data: -80138
-      - m_Data: -80122
-      - m_Data: -78484
-      - m_Data: -75228
-      - m_Data: -63874
-      - m_Data: -63870
-      - m_Data: -62488
-      - m_Data: -19982
-      - m_Data: 105970
-      - m_Data: 106660
-      - m_Data: 108052
+      - m_Data: -1300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -971,9 +942,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.21917927, y: 1.0177363, z: 2.6322796}
+    m_Target: {x: -1.1260273, y: 0.99974513, z: 2.955864}
     speed: 2
-    m_Value: {x: 0.21917927, y: 1.0177363, z: 2.6322796}
+    m_Value: {x: -1.1260273, y: 0.99974513, z: 2.955864}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1019,9 +990,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06144675, y: 0.93646395, z: -0.27561983, w: -0.20907788}
+    m_Target: {x: 0.08735509, y: 0.9035378, z: -0.22051641, w: 0.35747302}
     speed: 2
-    m_Value: {x: -0.060932387, y: 0.9369258, z: -0.27331403, w: -0.20918067}
+    m_Value: {x: 0.087601, y: 0.90291595, z: -0.22036451, w: 0.35848066}
   m_Size:
     m_Target: 0.2595557
     speed: 2
@@ -1135,7 +1106,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Unax Rementeria/Prefabs
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1145,7 +1116,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Unax Rementeria/Prefabs
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\LearningUnity\VR\Practica_VR
   m_LockTracker:
@@ -1154,13 +1125,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 15.600006}
     m_SelectedIDs:
-    - m_Data: 99526
+    - m_Data: 51798
     m_LastClickedID:
-      m_Data: 99526
+      m_Data: 51798
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 54354
-    - m_Data: 93340
+    - m_Data: 51798
+    - m_Data: 52198
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1194,8 +1165,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 54354
-    - m_Data: 1000000000
+    - m_Data: 51798
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1222,9 +1192,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs:
+    - m_Data: 50296
+    m_LastClickedInstanceID: 50296
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 69080
     m_RenameOverlay:
@@ -1318,7 +1289,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 24338
+  controlID: 100
   draggingID: 0
 --- !u!114 &13
 MonoBehaviour:

@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4711251176265990079}
   - component: {fileID: 1505669717922899716}
   - component: {fileID: 4699991257994814202}
+  - component: {fileID: 7172179403698630230}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: proyectil
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,9 +107,22 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7172179403698630230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3173642928885770103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd4b02bcfa7dcc9439bc6dbd12b7628d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::cubeMove
+  speed: 10
