@@ -20,6 +20,9 @@ public class Counter : MonoBehaviour
             score.AddScore();
             Destroy(other.gameObject);
         }
+
+        
+
         if (other.transform.CompareTag("bomb"))
         {
             score.MinusScore();

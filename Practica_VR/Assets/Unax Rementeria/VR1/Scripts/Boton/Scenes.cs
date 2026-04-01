@@ -13,4 +13,9 @@ public class Scenes : MonoBehaviour
     {
         SceneManager.LoadScene("Comlplejo");
     }
+    
+    public void LoadSceneExtra()
+    {
+        SceneManager.LoadScene("Extra");
+    }
 }
