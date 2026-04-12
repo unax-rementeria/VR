@@ -9,7 +9,16 @@ public class score : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private string prefix = "Score: ";
 
+
+
     public int _score = 0;
+    public int MaxScore;
+
+    public void SetMaxScore(int score)
+    {
+        MaxScore = score;
+        UpdateDisplay();
+    }
 
     void Start()
     {
@@ -31,7 +40,7 @@ public class score : MonoBehaviour
 
     private void UpdateDisplay()
     {
-        if (_score < 20)
+        if (_score < MaxScore)
         {
             scoreText.text = prefix + _score.ToString();
         }
