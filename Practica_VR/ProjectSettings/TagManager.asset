@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - proyectil
+  - bomb
   layers:
   - Default
   - TransparentFX

@@ -35,7 +35,6 @@ public class TriggerSequenceManager : MonoBehaviour
         if (!WrongOrder)
         {
             triggerAActivated = true;
-            score.AddScore();
         }
         Debug.Log("Trigger A activated — waiting for B...");
     }
@@ -45,15 +44,13 @@ public class TriggerSequenceManager : MonoBehaviour
         if (triggerAActivated)
         {
             Debug.Log("Correct order! A → B");
-            triggerAActivated = false; // reset
-            Destroy(gameObject);
-            WrongOrder = false;
-
+            score.AddScore();
         }
         else
         {
             Debug.Log("Wrong order — A must come first.");
             WrongOrder = true;
         }
+            Destroy(gameObject);
     }
 }

@@ -505,18 +505,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
   - {fileID: -2097689856792223179}
-  - {fileID: 7587708277220918483}
-  - {fileID: 8444690931171854082}
   - {fileID: 1857786344852009561}
-  - {fileID: 4246888041927631465}
-  - {fileID: 3675945754292676532}
-  - {fileID: -7836288629819127458}
   - {fileID: -8955299326364504498}
-  - {fileID: 3995569719355822565}
-  - {fileID: -1107329062281579046}
-  - {fileID: -8256178090813098725}
-  - {fileID: -2210944930039052572}
-  - {fileID: -6455179347868622510}
   - {fileID: -2744780477614306028}
   - {fileID: -263644746823010298}
   - {fileID: 3606284372542366718}
@@ -1233,8 +1223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
   - {fileID: -2026886501138234447}
-  - {fileID: 9107810735885226473}
-  - {fileID: -8335810485764512280}
+  - {fileID: 5026796221878603272}
+  - {fileID: 8019444797139947022}
   - {fileID: 5799165752055872602}
   - {fileID: -952858985394502553}
   - {fileID: -4296530828119911615}
@@ -1245,7 +1235,7 @@ MonoBehaviour:
   - {fileID: 3872352319089918953}
   - {fileID: -8632346299468704406}
   - {fileID: -7953496289240909804}
-  - {fileID: -1635883180895083810}
+  - {fileID: 1706789297259373152}
   - {fileID: 4316784873348917425}
   - {fileID: -4016133678902310642}
   - {fileID: 678763194025533346}
@@ -1520,7 +1510,7 @@ MonoBehaviour:
   nameUi: 'Android XR: AR Anchor'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-androidxr-anchor
-  openxrExtensionStrings: XR_ANDROID_trackables
+  openxrExtensionStrings: XR_ANDROID_trackables XR_ANDROID_device_anchor_persistence
   company: Unity Technologies
   priority: 0
   targetOpenXRApiVersion: 
@@ -2118,7 +2108,7 @@ MonoBehaviour:
   nameUi: 'Android XR: AR Anchor'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-androidxr-anchor
-  openxrExtensionStrings: XR_ANDROID_trackables
+  openxrExtensionStrings: XR_ANDROID_trackables XR_ANDROID_device_anchor_persistence
   company: Unity Technologies
   priority: 0
   targetOpenXRApiVersion: 

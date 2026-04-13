@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad421e987f072194eaa6d11cafbdcaf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TriggerSequenceManager
-  triggerInterval: 0.1
+  triggerInterval: 0.2
 --- !u!114 &8968992470712802279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17e9b99338ba123479a3609eaeb5045e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::cubeMoveFlechas
-  speed: 3
+  speed: 2
 --- !u!1 &3809873035453515665
 GameObject:
   m_ObjectHideFlags: 0

@@ -33,7 +33,7 @@ public class cubeMoveFlechas : MonoBehaviour
 
     IEnumerator morir()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(3);
         Debug.Log("destruido");
         Destroy(gameObject);
     }
